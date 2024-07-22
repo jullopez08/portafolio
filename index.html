@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Julieth</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenidos a mi página web personal</h1>
+        <h2>Julieth perdomo Lopez</h2>
+        <nav>
+            <ul>
+                <li><a href="#SobreMi">Sobre Mi</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#actividades">Mis actividad</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="SobreMi">
+            <h2>Un poco sobre mí...</h2>
+            <div class="container-sobreMi">
+                <p>
+                    Hola, soy de Colombia, soy estudiante de Ingenieria en Sistemas y me
+                    encanta mucho tomar mi maleta de un día a otro y salir de viaje! Me
+                    apasionan los animales, la naturaleza y el deporte.
+                </p>
+                <img src="./multimedia/images/julieth-removebg-preview.png" alt="Foto de Julieth" id="fotoPerfil" />
+            </div>
+        </section>
+        <section id="tecnologias">
+            <div>
+                <h2>Mis tecnologias favoritas</h2>
+                <p>Estas son las tecnologias que mas suelo usar.</p>
+            </div>
+            <div class="container-article">
+                <article>
+                    <p id="html">HTML</p>
+                    <img src="./multimedia/images/html.png" alt="" id="html5" />
+                </article>
+
+                <article>
+                    <p id="css">CSS</p>
+                    <img src="./multimedia/images/css.png" alt="" id="css3" />
+                </article>
+                <article>
+                    <p id="js">JavaScript</p>
+                    <img src="./multimedia/images/javascript.png" alt="" id="jsImagen" />
+                </article>
+            </div>
+        </section>
+        <section id="actividades">
+            <h2>Mis Actividades Favoritas</h2>
+            <p>Estas son las Actividades que mas disfruto hacer</p>
+            <div class="container-formulario">
+                <img src="./multimedia/images/formulario.png" alt="" />
+                <form action="" id="formF">
+                    <label for="titulo">Título</label>
+                    <input type="text" name="titulo" id="titleformulario" required />
+                    <label for="descripcion">Descripción</label>
+                    <input type="text" name="descripcion" id="descriptionformulario" />
+                    <label for="imagen">URL de imagen</label>
+                    <input type="url" name="imagen" id="imaUrlformulario" required />
+                    <div class="botones">
+                        <button type="button" value="enviar" id="botonCActivity">
+                            Guardar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div class="container-tarjetas" id="div-tarjetas"></div>
+        </section>
+    </main>
+    <script src="./scripts/models.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>

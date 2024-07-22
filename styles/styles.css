@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "Protesta";
+    src: url("../multimedia/fonts/ShantellSans-Italic-VariableFont_BNCE\,INFM\,SPAC\,wght.ttf") format("truetype");
+    src: url("../multimedia/fonts/ShantellSans-VariableFont_BNCE\,INFM\,SPAC\,wght.ttf") format("truetype");
+    src: url("../multimedia/fonts/README.txt") format("txt");
+    src: url("../multimedia/fonts/static/ShantellSans-Bold.ttf") format("truetype");
+    src: url("../multimedia/fonts/static/ShantellSans-BoldItalic.ttf") format("truetype");
+    src: url("../multimedia/fonts/static/ShantellSans-ExtraBold.ttf") format("truetype");
+    src: url("../multimedia/fonts/static/ShantellSans-ExtraBoldItalic.ttf") format("truetype");
+    src: url("../multimedia/fonts/static/ShantellSans-Italic.ttf") format("truetype");
+    src: url("../multimedia/fonts/static/ShantellSans-Light.ttf") format("truetype");
+    src: url("../multimedia/fonts/static/ShantellSans-LightItalic.ttf") format("truetype");
+    src: url("../multimedia/fonts/static/ShantellSans-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+body {
+    font-family: "Protesta";
+    background-color: #f7a1b5;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+h1,
+h2 {
+    font-family: "Protesta";
+    text-align: center;
+    color: #bf042c;
+    margin: 6px;
+    padding: 6px;
+    font-weight: bold;
+}
+p {
+    font-family: "Protesta";
+    font-size: 26px;
+    color: #bf042c;
+    text-align: center;
+    white-space: pre-line;
+    margin: 10px;
+}
+nav {
+    background-color: #f4e867;
+    border-radius: 3%;
+    padding: 8px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    margin: 6px;
+    padding: 6px;
+    background-color: #d8d8d8;
+    border: 1px solid #a1d9ce;
+    box-shadow: 1px 1px 2px #bf042c;
+    border-radius: 10px;
+}
+section {
+    margin: 15px;
+    padding: 20px;
+    background-color: #b2cce5;
+    border-radius: 15px;
+}
+.container-sobreMi {
+    display: flex;
+    justify-content: space-around;
+}
+#fotoPerfil {
+    order: -1;
+    width: 300px;
+}
+#fotoPerfil:hover {
+    transform: rotate(5deg) scale(1.05);
+}
+.container-article {
+    display: flex;
+    justify-content: space-around;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+article {
+    background-color: #d8d8d8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+article p {
+    font-size: 24px;
+}
+button:hover,
+li:hover,
+article:hover {
+    transform: rotate(3deg) scale(1.05);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #d8d8d8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 35px;
+    padding: 15px;
+    width: 1000px;
+}
+label,
+input,
+textarea {
+    font-size: 18px;
+    margin: 6px;
+}
+label {
+    width: 130px;
+}
+textarea {
+    width: 100%;
+    min-height: 130px;
+}
+textarea,
+input {
+    opacity: 80%;
+    border-radius: 8px;
+}
+button {
+    margin: 6px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+.botones {
+    display: flex;
+    justify-content: flex-end;
+}
+.container-formulario {
+    display: flex;
+    justify-content: space-around;
+}
+.tarjetas {
+    display: flex;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 400px;
+    height: auto;
+    flex-direction: column;
+    margin: 5px;
+    padding: 3px;
+    background-color: #d8d8d8;
+    align-items: center;
+}
+.tarjetas img {
+    width: 50%;
+    border-radius: 8px;
+}
+.container-tarjetas {
+    display: flex;
+    justify-content: space-around;
+}
