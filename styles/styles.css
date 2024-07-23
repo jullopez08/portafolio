@@ -66,17 +66,33 @@ section {
 }
 .container-sobreMi {
     display: flex;
-    justify-content: space-around;
+   
+    justify-content:space-around;
+  
+}
+.container-sobreMi p{
+    
+    margin-right: 20px;
+    text-align: justify;
 }
 #fotoPerfil {
     order: -1;
-    width: 300px;
+    border-radius:3%;
+    width: 400px;
+
+    height: auto;
 }
+/* .container-fotoperfil{
+    display: flex;
+    margin: 400px;
+
+} */
 #fotoPerfil:hover {
     transform: rotate(5deg) scale(1.05);
 }
 .container-article {
     display: flex;
+    flex-wrap:wrap ;
     justify-content: space-around;
 }
 
@@ -90,7 +106,7 @@ article {
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
-    width: 300px;
+    width: 200px;
     margin: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
