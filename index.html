@@ -17,7 +17,8 @@
             <ul>
                 <li><a href="#SobreMi">Sobre Mi</a></li>
                 <li><a href="#tecnologias">Tecnologias</a></li>
-                <li><a href="#actividades">Mis actividad</a></li>
+                <li><a href="#proyectos">Mis Proyectos</a></li>
+
             </ul>
         </nav>
     </header>
@@ -117,24 +118,20 @@
                 </article>
             </div>
         </section>
-        <section id="actividades">
-            <h2>Mis Actividades Favoritas</h2>
-            <p>Estas son las Actividades que mas disfruto hacer</p>
-            <div class="container-formulario">
-                <img src="./multimedia/images/formulario.png" alt="" />
-                <form action="" id="formF">
-                    <label for="titulo">Título</label>
-                    <input type="text" name="titulo" id="titleformulario" required />
-                    <label for="descripcion">Descripción</label>
-                    <input type="text" name="descripcion" id="descriptionformulario" />
-                    <label for="imagen">URL de imagen</label>
-                    <input type="url" name="imagen" id="imaUrlformulario" required />
-                    <div class="botones">
-                        <button type="button" value="enviar" id="botonCActivity">
-                            Guardar
-                        </button>
-                    </div>
-                </form>
+        <section id="proyectos">
+
+            <h2>Mis Proyectos</h2>
+            <p>Estos son algunos de los proyectos que he realizado... </p>
+            <div class="container-article proyect">
+                <a href="https://pf-henry-front-rouge.vercel.app/" target="_blank">
+                    <article>
+                        <p id="js">Power Traning</p>
+                        <img src="./multimedia/images/powertraning.jpg" alt="" id="cloudinaryImagen" class="proyect" />
+                        <div class="hover-text">Aplicación de gym para manejo de ingreso y pagos. Este cuenta con una BD
+                            en PosgresSQL, diseño en React con Nextjs y NestJS junto con tecnologias como Express.
+                        </div>
+                    </article>
+                </a>
             </div>
         </section>
         <section>
